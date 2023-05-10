@@ -15,56 +15,70 @@
   </head>
   <body>
     <header>
-      <a href="./index.html"> <span>Web</span>Studio </a>
+      <a class="logo-link-web" href="./index.html">
+        <span class="logo-web">Web</span>Studio
+      </a>
 
-      <nav>
-        <ul>
-          <li><a href="#">Agencja</a></li>
-          <li><a href="./portfolio.html">Porfolio</a></li>
-          <li><a href="#">Kontakt</a></li>
+      <nav class="header-nav">
+        <ul class="header-list">
+          <li><a class="header-nav-link" href="#">Agencja</a></li>
+          <li>
+            <a class="header-nav-link" href="./portfolio.html">Porfolio</a>
+          </li>
+          <li><a class="header-nav-link" href="#">Kontakt</a></li>
         </ul>
       </nav>
-      <span><a href="mailto:info@devstudio.com">info@devstudio.com</a></span>
-      <span><a href="tel:+48111111111">+48 111 111 111</a></span>
+      <span class="header-contact"
+        ><a class="header-contact-link" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        ></span
+      >
+      <span class="header-contact"
+        ><a class="header-contact-link" href="tel:+48111111111"
+          >+48 111 111 111</a
+        ></span
+      >
     </header>
     <main>
-      <div>
-        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługe</button>
+      <div class="main-banner-container">
+        <h1 class="main-banner-title">
+          EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
+        </h1>
+        <button class="main-banner-button" type="button">Zamów usługe</button>
       </div>
-      <ul>
+      <ul class="main-list">
         <li>
-          <h5>LOREM IPSUM</h5>
-          <p>
+          <h5 class="main-list-header">LOREM IPSUM</h5>
+          <p class="main-list-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </p>
         </li>
         <li>
-          <h5>LOREM IPSUM</h5>
-          <p>
+          <h5 class="main-list-header">LOREM IPSUM</h5>
+          <p class="main-list-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </p>
         </li>
         <li>
-          <h5>LOREM IPSUM</h5>
-          <p>
+          <h5 class="main-list-header">LOREM IPSUM</h5>
+          <p class="main-list-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </p>
         </li>
         <li>
-          <h5>LOREM IPSUM</h5>
-          <p>
+          <h5 class="main-list-header">LOREM IPSUM</h5>
+          <p class="main-list-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </p>
         </li>
       </ul>
       <section>
-        <h2>Czym się zajmujemy</h2>
-        <ul>
+        <h2 class="main-section-whatwedo">Czym się zajmujemy</h2>
+        <ul class="list-style">
           <li>
             <img
               src="./images/1.jpg"
@@ -91,11 +105,11 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Nasz zespół</h2>
-        <ul>
+      <section class="main-team-container">
+        <h2 class="main-team-header">Nasz zespół</h2>
+        <ul class="main-team-list">
           <li>
-            <figure>
+            <figure class="main-image-container">
               <img
                 src="./images/4.jpg"
                 width="270"
@@ -103,13 +117,13 @@
                 alt="team member John DoeProduct Designer"
               />
               <figcaption>
-                <p>John Doe</p>
-                <span>Product Designer</span>
+                <p class="image-name">John Doe</p>
+                <p class="image-profession">Product Designer</p>
               </figcaption>
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="main-image-container">
               <img
                 src="./images/5.jpg"
                 width="270"
@@ -117,13 +131,13 @@
                 alt="team member John DoeProduct Designer"
               />
               <figcaption>
-                <p>John Doe</p>
-                <span>Product Designer</span>
+                <p class="image-name">John Doe</p>
+                <p class="image-profession">Product Designer</p>
               </figcaption>
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="main-image-container">
               <img
                 src="./images/6.jpg"
                 width="270"
@@ -131,13 +145,13 @@
                 alt="team member John DoeProduct Designer"
               />
               <figcaption>
-                <p>John Doe</p>
-                <span>Product Designer</span>
+                <p class="image-name">John Doe</p>
+                <p class="image-profession">Product Designer</p>
               </figcaption>
             </figure>
           </li>
           <li>
-            <figure>
+            <figure class="main-image-container">
               <img
                 src="./images/7.jpg"
                 width="270"
@@ -145,20 +159,26 @@
                 alt="team member John DoeProduct Designer"
               />
               <figcaption>
-                <p>John Doe</p>
-                <span>Product Designer</span>
+                <p class="image-name">John Doe</p>
+                <p class="image-profession">Product Designer</p>
               </figcaption>
             </figure>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a> <span>Web</span>Studio </a>
-      <address>
+    <footer class="fotter-background">
+      <a class="logo-link-web"> <span class="logo-web">Web</span>Studio </a>
+      <address class="footer-address">
         <p>m. Warszawa, Aleje Jerozolimskie 21</p>
-        <p><a href="mailto:info@example.com">info@example.com</a></p>
-        <p><a href="tel:+48111111111">+48 111 111 111</a></p>
+        <p>
+          <a class="footer-link" href="mailto:info@example.com"
+            >info@example.com</a
+          >
+        </p>
+        <p>
+          <a class="footer-link" href="tel:+48111111111">+48 111 111 111</a>
+        </p>
       </address>
     </footer>
   </body>
