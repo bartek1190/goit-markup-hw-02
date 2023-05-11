@@ -44,7 +44,7 @@ body {
 .header-contact {
   font-size: 14px;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1.2em;
   letter-spacing: 0.02em;
 }
 .header-contact-link {
@@ -58,7 +58,7 @@ body {
 .main-banner-title {
   font-size: 44px;
   font-weight: 900;
-  line-height: 60px;
+  line-height: 1.4em;
   letter-spacing: 0.06em;
   text-align: center;
 }
@@ -113,7 +113,6 @@ body {
 }
 .main-team-header {
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.2em;
   letter-spacing: 0.03em;
   text-align: center;
@@ -132,7 +131,6 @@ body {
 }
 .image-name {
   color: var(--nav-color);
-  font-family: Roboto;
   font-weight: 500;
   line-height: 1.9em;
   letter-spacing: 0.03em;
